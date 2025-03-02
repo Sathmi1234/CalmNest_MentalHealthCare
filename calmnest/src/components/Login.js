@@ -1,29 +1,32 @@
 import React from "react";
 import { View, Text, TextInput, TouchableOpacity, StyleSheet } from "react-native";
 
-const Signup = ({ navigation }) => {
+const LoginScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Create Your Account</Text>
+      <Text style={styles.title}>Log in</Text>
 
       <TextInput style={styles.input} placeholder="Nick Name" />
       <TextInput style={styles.input} placeholder="Password" secureTextEntry />
-      <TextInput style={styles.input} placeholder="Confirm Password" secureTextEntry />
 
-      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Login")}>
-        <Text style={styles.buttonText}>Sign Up</Text>
+      <TouchableOpacity>
+        <Text style={styles.forgotPassword}>Forgot Password?</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => navigation.navigate("Login")}>
-        <Text style={styles.link}>Already registered? Log in</Text>
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Signup")}>
+        <Text style={styles.buttonText}>Log In</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity onPress={() => navigation.navigate("SignUp")}>
+        <Text style={styles.link}>Don't have an account? Sign Up</Text>
       </TouchableOpacity>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
-   flex: 1, 
+  container: { 
+    flex: 1, 
     alignItems: "center", 
     justifyContent: "center", 
     padding: 20 
@@ -38,6 +41,10 @@ const styles = StyleSheet.create({
     padding: 15, 
     borderWidth: 1, 
     borderRadius: 8, 
+    marginBottom: 10 
+},
+  forgotPassword: { 
+    color: "blue", 
     marginBottom: 10 
 },
   button: { 
@@ -57,4 +64,4 @@ const styles = StyleSheet.create({
 },
 });
 
-export default Signup;
+export default LoginScreen;

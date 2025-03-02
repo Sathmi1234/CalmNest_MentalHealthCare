@@ -1,22 +1,19 @@
 import React from "react";
 import { View, Text, TextInput, TouchableOpacity, StyleSheet } from "react-native";
 
-const SignupScreen = ({ navigation }) => {
+const ChangePasswordScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Create Your Account</Text>
+      <Text style={styles.title}>Change Your Password</Text>
 
-      <TextInput style={styles.input} placeholder="Nick Name" />
-      <TextInput style={styles.input} placeholder="Password" secureTextEntry />
+      <TextInput style={styles.input} placeholder="Enter your ID" />
+      <TextInput style={styles.input} placeholder="Change Password" secureTextEntry />
       <TextInput style={styles.input} placeholder="Confirm Password" secureTextEntry />
 
       <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Login")}>
-        <Text style={styles.buttonText}>Sign Up</Text>
+        <Text style={styles.buttonText}>Done</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => navigation.navigate("Login")}>
-        <Text style={styles.link}>Already registered? Log in</Text>
-      </TouchableOpacity>
     </View>
   );
 };
@@ -57,4 +54,4 @@ const styles = StyleSheet.create({
 },
 });
 
-export default SignupScreen;
+export default ChangePasswordScreen;

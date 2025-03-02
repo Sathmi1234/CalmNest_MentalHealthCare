@@ -9,7 +9,7 @@ const LoginScreen = ({ navigation }) => {
       <TextInput style={styles.input} placeholder="Nick Name" />
       <TextInput style={styles.input} placeholder="Password" secureTextEntry />
 
-      <TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.navigate("ChangePassword")}>
         <Text style={styles.forgotPassword}>Forgot Password?</Text>
       </TouchableOpacity>
 

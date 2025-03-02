@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import { View, Text, Image, StyleSheet, Dimensions, Animated } from "react-native";
+import { View, Text, Image, StyleSheet, Dimensions, Animated, TouchableOpacity } from "react-native";
 
 const { width } = Dimensions.get("window");
 
-const LandingScreen = () => {
+const LandingScreen = ({ navigation }) => {
   // Animation values
   const logoOpacity = new Animated.Value(0);
   const welcomeSlideUp = new Animated.Value(50);
@@ -59,6 +59,9 @@ const LandingScreen = () => {
         <Animated.Text style={[styles.welcomeText, styles.appName, { opacity: textOpacity }]}>
           Calm Nest!
         </Animated.Text>
+        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Signup")}>
+          <Text style={styles.buttonText}>Get Started</Text>
+        </TouchableOpacity>
       </Animated.View>
     </View>
   );

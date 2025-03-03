@@ -59,7 +59,7 @@ const LandingScreen = ({ navigation }) => {
         <Animated.Text style={[styles.welcomeText, styles.appName, { opacity: textOpacity }]}>
           Calm Nest!
         </Animated.Text>
-        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Signup")}>
+        <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Login")}>
           <Text style={styles.buttonText}>Get Started</Text>
         </TouchableOpacity>
       </Animated.View>

@@ -1,9 +1,11 @@
 import React from "react";
-import { View, Text, TextInput, TouchableOpacity, StyleSheet } from "react-native";
+import { View, Text, TextInput, TouchableOpacity, StyleSheet, Image } from "react-native";
 
 const LoginScreen = ({ navigation }) => {
   return (
+
     <View style={styles.container}>
+    <Image source={require("../../assets/robo.png")} style={styles.image} />
       <Text style={styles.title}>Log in</Text>
 
       <TextInput style={styles.input} placeholder="Nick Name" />
@@ -30,6 +32,11 @@ const styles = StyleSheet.create({
     alignItems: "center", 
     justifyContent: "center", 
     padding: 20 
+},
+image: {
+  width: 100,  // Adjust width (make smaller)
+  height: 100, // Adjust height (make smaller)
+  marginBottom: 20, // Space below the image
 },
   title: { 
     fontSize: 22, 

@@ -30,6 +30,10 @@ Figma link: https://www.figma.com/design/Vh5iQ92BDwm1SLe6koGJsR/Calm-Nest?node-i
 - **Sathmi Rajapaksha** | IT Undergraduate - University of Vavuniya   
 - **Imesha Mahumali** | IT Undergraduate - University of Vavuniya  
 
+## 📝 Blog
+Align with this App "calmnest" the blog "MindSpark" has published to bring the newest updates on calmnest as well as the mental health facts throughout the world. Invite all of you to connect with our blog "MindSark". 🙌<br>
+🎀 https://wemindspark.blogspot.com/
+
 ## 🌟 Join Us  
 Help us **transform mental health care** in Sri Lanka. Together, we can **make well-being accessible, inclusive, and stigma-free**.  
 

@@ -22,6 +22,10 @@ Unlike global alternatives like Woebot and Wysa, **Calm Nest is tailored for Sri
 2. **Premium Model:** Includes **mood tracking, assessments, and professional access**.  
 3. **Institutional Licensing:** Universities & organizations can offer Calm Nest at a **discounted rate**.  
 
+## 🖼️ Figma
+Have a look on how UI align to achieve the features of calmnest:
+Figma link: https://www.figma.com/design/Vh5iQ92BDwm1SLe6koGJsR/Calm-Nest?node-id=0-1&p=f&t=7mMKRArtB7fQj4MA-0
+
 ## 👥 Our Team  
 - **Sathmi Rajapaksha** | IT Undergraduate - University of Vavuniya   
 - **Imesha Mahumali** | IT Undergraduate - University of Vavuniya  

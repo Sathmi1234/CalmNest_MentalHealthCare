@@ -2,11 +2,11 @@ import 'react-native-gesture-handler';
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
-import LandingScreen from "./src/components/Landing";
-import SignupScreen from "./src/components/Signup";
-import LoginScreen from "./src/components/Login";
-import ChangePasswordScreen from './src/components/ChangePassword';
-import HomeScreen from './src/components/Home';
+import LandingScreen from "./src/screens/Landing";
+import SignupScreen from "./src/screens/Signup";
+import LoginScreen from "./src/screens/Login";
+import ChangePasswordScreen from './src/screens/ChangePassword';
+import HomeScreen from './src/screens/Home';
 import BottomNavigation from './src/navigation/BottomTab';
 
 const Stack = createStackNavigator();
